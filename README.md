@@ -30,20 +30,14 @@ A 3D dog agility game built in Unity where you control a German Shepherd through
 
 ## Setup
 
-1. Open the project in **Unity 6** (or Unity 2022.3+)
-2. Open the scene: `Assets/Scenes/DogGame.unity`
-3. Press Play
+1. Clone this repo
+2. Open the project in **Unity 6** (or Unity 2022.3+)
+3. Wait for Unity to import all assets (may take a minute on first open)
+4. Open the scene: `Assets/Scenes/DogGame.unity`
+5. Go to **Tools > Build GS Controller** in the menu bar (one-time setup for animations)
+6. Press Play
 
-### Required Asset (not included in repo)
-
-This project uses the **German Shepherd 3D Model** by RetroStyle Games from the Unity Asset Store. You need to import it separately:
-
-1. Open the Unity Asset Store and download **"German Shepherd 3D Model"** by RetroStyle Games
-2. Import the package into the project via **Assets > Import Package > Custom Package**
-3. After import, go to **Tools > Build GS Controller** in the menu bar to set up the animations
-4. Press Play
-
-If the German Shepherd package is not imported, the game will fall back to a procedural primitive-based dog model.
+All assets including the German Shepherd model are included in the repo - no additional downloads needed.
 
 ## Project Structure
 
@@ -64,7 +58,7 @@ Assets/
       Grass/         - Kenney Nature Kit grass models (CC0)
       Bushes/        - Kenney Nature Kit bush models (CC0)
       Flowers/       - Kenney Nature Kit flower models (CC0)
-  RSG_DogsPack/    - German Shepherd source assets (after import)
+  RSG_DogsPack/    - German Shepherd source assets
   Editor/          - Editor-only scripts for animation setup
 ```
 
