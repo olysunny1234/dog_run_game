@@ -33,7 +33,8 @@
       "WebFetch(domain:kenney.nl)",
       "mcp__UnityMCP__manage_script",
       "mcp__UnityMCP__manage_animation",
-      "mcp__UnityMCP__batch_execute"
+      "mcp__UnityMCP__batch_execute",
+      "WebFetch(domain:assetstore.unity.com)"
     ],
     "additionalDirectories": [
       "C:\\Users\\xma\\AppData\\Local\\npm-cache\\_npx\\5ced38e42099c3f2\\node_modules\\unity-mcp-cli\\dist\\utils"
